@@ -1,0 +1,58 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Smart Login</title>
+  </head>
+  <body>
+    <main class="d-flex justify-content-center align-items-center">
+      <div class="box w-50">
+        <div
+          class="box-content p-5 d-flex justify-content-center flex-column text-center w-100"
+        >
+          <h1 class="text-info mb-3">Smart Login System</h1>
+          <div class="form-box d-flex flex-column">
+            <input
+              id="inName"
+              type="text"
+              placeholder="Enter your name"
+              class="form-control mb-2 text-black"
+            />
+            <input
+              id="inEmail"
+              type="email"
+              placeholder="Enter your email"
+              class="form-control mb-2 text-black"
+            />
+            <input
+              id="inPassword"
+              type="password"
+              placeholder="Enter your password"
+              class="form-control text-black"
+            />
+            <p id="requiredError" class="text-danger"></p>
+            <p id="addedSuccessfully" class="text-success"></p>
+            <button id="signUpBtn" class="btn btn-outline-info my-3">
+              Sign Up
+            </button>
+            <p class="text-white">
+              Don’t have an account?<a href="../sign in/index1.html" class="text-white">
+                Sign In</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+ 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
